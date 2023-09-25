@@ -1,0 +1,40 @@
+{
+    "fotografia": [
+        {
+            "nombre": "Cámara DSLR Canon",
+            "tipo": "Cámara DSLR",
+            "img": "img/1-camera.png",
+            "precio": 499
+        },
+        {
+            "nombre": "Cámara sin espejo Sony",
+            "tipo": "Cámara sin espejo",
+            "img": "img/2-camera.png",
+            "precio": 599
+        },
+        {
+            "nombre": "Trípode Manfrotto",
+            "tipo": "Accesorio de fotografía",
+            "img": "img/3-tripod.png",
+            "precio": 79
+        },
+        {
+            "nombre": "Lente Nikon 50mm",
+            "tipo": "Accesorio de fotografía",
+            "img": "img/4-lens.png",
+            "precio": 199
+        },
+        {
+            "nombre": "Flash Godox",
+            "tipo": "Accesorio de fotografía",
+            "img": "img/5-flash.png",
+            "precio": 129
+        },
+        {
+            "nombre": "Cámara de película Canon",
+            "tipo": "Cámara de película",
+            "img": "img/6-camera.png",
+            "precio": 299
+        }
+    ]
+}

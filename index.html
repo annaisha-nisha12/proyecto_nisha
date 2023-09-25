@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Venta de fotografía</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Venta de fotografía</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#fotografia">Fotografía</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+            <li><a href="#reservas">Reservas</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <!-- Filtro por modelo -->
+        <select id="filtro-modelo">
+            <option value="">Todos los modelos</option>
+            <option value="Cámaras DSLR">Cámaras DSLR</option>
+            <option value="Cámaras sin espejo">Cámaras sin espejo</option>
+            <option value="Accesorios de fotografía">Accesorios de fotografía</option>
+        </select>
+
+        <!-- Filtro por precio -->
+        <select id="filtro-precio">
+            <option value="0">Todos los precios</option>
+            <option value="100">Hasta $100</option>
+            <option value="250">Hasta $250</option>
+            <option value="500">Hasta $500</option>
+        </select>
+
+        <section id="fotografia">
+            <h2>Fotografías disponibles</h2>
+            <div class="columnas">
+                <!-- Primer columna -->
+                <div class="columna">
+                    <!-- Producto de fotografía 1 -->
+                    <div class="producto">
+                        <img src="img/1-camera.png" alt="Cámara DSLR Canon">
+                        <h3>Cámara DSLR Canon</h3>
+                        <p>Tipo: Cámara DSLR</p>
+                        <p>Precio: $499</p>
+                    </div>
+                    <!-- Producto de fotografía 2 -->
+                    <div class="producto">
+                        <img src="img/2-camera.png" alt="Cámara sin espejo Sony">
+                        <h3>Cámara sin espejo Sony</h3>
+                        <p>Tipo: Cámara sin espejo</p>
+                        <p>Precio: $599</p>
+                    </div>
+                </div>
+                <!-- Segunda columna -->
+                <div class="columna">
+                    <!-- Producto de fotografía 3 -->
+                    <div class="producto">
+                        <img src="img/3-tripod.png" alt="Trípode Manfrotto">
+                        <h3>Trípode Manfrotto</h3>
+                        <p>Tipo: Accesorio de fotografía</p>
+                        <p>Precio: $79</p>
+                    </div>
+                    <!-- Producto de fotografía 4 -->
+                    <div class="producto">
+                        <img src="img/4-lens.png" alt="Lente Nikon 50mm">
+                        <h3>Lente Nikon 50mm</h3>
+                        <p>Tipo: Accesorio de fotografía</p>
+                        <p>Precio: $199</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="ubicacion">
+            <h2>Ubicación</h2>
+            <p>Nuestra tienda se encuentra en la calle 123, en la ciudad de XYZ.</p>
+        </section>
+
+        <section id="reservas">
+            <h2>Reservas</h2>
+            <p>Para hacer una reserva, por favor llámenos al 555-555-5555 o envíenos un correo electrónico a
+                info@photorentals.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © 2021 Photo Rentals</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
